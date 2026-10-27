@@ -1,0 +1,8 @@
+{
+  "name": "CleanSwift Cleaning Co.",
+  "description": "Premium residential and commercial cleaning services. Eco-friendly, insured, and satisfaction guaranteed.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
