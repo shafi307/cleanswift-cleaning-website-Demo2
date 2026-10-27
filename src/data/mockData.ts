@@ -1,12 +1,19 @@
 import { ServiceItem, PricingPlan, BlogPost, Testimonial, FAQItem } from '../types';
 
+import heroImage from '../assets/images/hero_clean_home_1793127153131.jpg';
+import houseCleaningImage from '../assets/images/service_house_cleaning_1793127153388.jpg';
+import commercialCleaningImage from '../assets/images/service_commercial_cleaning_1793127154338.jpg';
+import deepCleaningImage from '../assets/images/service_deep_cleaning_1793127154391.jpg';
+import aboutTeamImage from '../assets/images/about_cleaning_team_1793127155195.jpg';
+import blogEcoImage from '../assets/images/blog_eco_cleaning_1793127155365.jpg';
+
 export const IMAGES = {
-  hero: '/src/assets/images/hero_clean_home_1793127153131.jpg',
-  houseCleaning: '/src/assets/images/service_house_cleaning_1793127153388.jpg',
-  commercialCleaning: '/src/assets/images/service_commercial_cleaning_1793127154338.jpg',
-  deepCleaning: '/src/assets/images/service_deep_cleaning_1793127154391.jpg',
-  aboutTeam: '/src/assets/images/about_cleaning_team_1793127155195.jpg',
-  blogEco: '/src/assets/images/blog_eco_cleaning_1793127155365.jpg',
+  hero: heroImage,
+  houseCleaning: houseCleaningImage,
+  commercialCleaning: commercialCleaningImage,
+  deepCleaning: deepCleaningImage,
+  aboutTeam: aboutTeamImage,
+  blogEco: blogEcoImage,
 };
 
 export const SERVICES: ServiceItem[] = [
